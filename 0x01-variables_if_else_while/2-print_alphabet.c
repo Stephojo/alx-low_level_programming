@@ -2,21 +2,20 @@
 /**
  * main - the starting point
  *
- * Return: gives o if (success)
+ * Return: gives 0 if (success)
  */
 
 int main(void)
 {
-	char a;
+	char d = 'a';
 
-	while (a <= 'z')
+	while (d <= 'z')
 
 	{
-		putchar(a);
-		a++;
+		putchar(d);
+		d++;
 	}
 	putchar('\n');
-
 	return (0);
 }
 
