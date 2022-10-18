@@ -1,9 +1,15 @@
 #include <stdio.h>
-/* adding main fuction that returns a value */
+
+/**
+ * main -  Entry point
+ *
+ * Return: alway gives a 0 value if success
+ */
+
 int main(void)
+
 {
-	put("\ "Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
-
-
 }
+
