@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphanet - prints lower case alphabets follow by a newline to stout.
- *
+ * print_alphabet - function that prints lower case alphabet.
  */
 
 void print_alphabet(void)
