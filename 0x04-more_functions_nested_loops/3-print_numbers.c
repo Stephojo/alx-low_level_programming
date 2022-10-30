@@ -1,19 +1,16 @@
 #include "main.h"
 
 /**
- * print_numbers - prints number from 0 to 9
- * Return: gives o vaule ifsuccess
+ * print_numbers - Prints the numbers from 0-9
  */
-
 void print_numbers(void)
-
 {
-	int n = 0;
+	int num;
 
-	while (n < 10)
+	for (num = 0; num <= 9; num++)
 	{
-		_putchar((n % 10) + '0');
-		n++;
+		_putchar((num % 10) + '0');
 	}
-	 _putchar('\n');
+	_putchar('\n');
+}
 
